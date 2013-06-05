@@ -1,0 +1,23 @@
+[user]
+	name = Evan Moelter
+	email = evanmoelter@umail.ucsb.edu
+[push]
+	default = simple
+[core]
+	editor = emacs
+	excludesfile = /fs/home1/student/e/evanmoelter/.gitignore_global
+[color]
+	ui = true
+[format]
+	pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[alias]
+	st = status
+	cm = commit
+	cmm = commit -m
+	co = checkout
+	b = branch
+	aa = add --all
+	pom = push origin master
+	cl = clone
+	pu = pull
+	l = log --graph --abbrev-commit --date=relative

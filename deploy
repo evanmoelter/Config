@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp -iv gitconfig ~/.gitconfig
+cp -iv gitignore_global ~/.gitignore_global
